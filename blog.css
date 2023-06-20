@@ -1,0 +1,152 @@
+body{
+    background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/flickr/15928417087_b110df146d_o.jpg?fit=1920%2C1080&ssl=1);
+    background-repeat : no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+#title{
+    position: fixed;
+    left: 5%;
+    height: 30%;
+}
+
+#bigtitle{
+    font-size: 400%;
+    color: #6B728E;
+    text-shadow: 1px -1px 2px #000;
+    left: 5%;}
+
+    #smallheader{
+        position: fixed;
+        font-size: 100%;
+        color: #b59ec9;
+        text-shadow: 1px -1px 10px #000000;
+        left: 5%;
+        top: 27%;}
+
+#main{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(22, 22, 22, 0.7);
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+#contents{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    background-color: #6B728E ;
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 0.5em rgb(54, 65, 66), 0 0 20px rgba(154, 162, 217, 0.5);
+    opacity: 1;
+}
+
+#icindekiler{
+    font-size:xx-large;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(154, 177, 180);
+  }
+
+#madde{
+    font-size: large;
+    font-family:'MyCustomFont', sans-serif;
+    left: 5%;
+    position: relative;
+    text-shadow: 2px 2px 5px rgb(176, 212, 214);
+}
+
+#altmadde{
+  font-family: 'MyCustomFont', sans-serif;
+  left: 5%;
+  position: relative;
+}
+
+#icerik-alt-baslik{
+    text-align: center;
+}
+
+.icerik{
+    display: flex;
+    overflow-x: scroll; /* Yatay kaydırmayı etkinleştir */
+    white-space: nowrap; /* İçeriklerin yan yana sıralanmasını sağlar */
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .icerik > div {
+    flex: 0 0 auto; /* Div elementlerinin boyutunu ayarlar */
+    width: 100%; /* Div elementlerinin genişliğini doldurur */
+  }
+
+  .icerik1{
+    position: relative;
+    background-color: #FFD369;
+  }
+  
+  .icerik2{
+    position: relative;
+    background-color: #ff9969;
+  }
+
+  h1{
+    text-align: center;
+    color: #bbb;
+  }
+
+.slide {
+    position: relative;
+    width: 80%;
+}
+
+#slider1{
+  position: relative;
+  width: 80%;
+  background-color: #50577A;
+  left: 10%;
+  box-shadow: inset 0 0 0.5em rgb(54, 65, 66), 0 0 20px rgba(154, 162, 217, 0.5);
+}
+
+#slider2{
+  position: relative;
+  width: 80%;
+  background-color: #474E68;
+  left: 10%;
+  box-shadow: inset 0 0 0.5em rgb(54, 65, 66), 0 0 20px rgba(154, 162, 217, 0.5);
+}
+
+#slider3{
+  position: relative;
+  width: 80%;
+  background-color: #404258;
+  left: 10%;
+  box-shadow: inset 0 0 0.5em rgb(54, 65, 66), 0 0 20px rgba(154, 162, 217, 0.5);
+}
+
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #332d3e;
+}
+
